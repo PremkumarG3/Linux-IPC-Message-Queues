@@ -22,8 +22,8 @@ Execute the C Program for the desired output.
 
 ## C program that receives a message from message queue and display them
 
-# Developed by: PREM KUMAR G
-# Register number: 212223230158
+### Developed by: PREM KUMAR G
+### Register number: 212223230158
 
 # Reader.c
 ```
