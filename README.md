@@ -26,7 +26,7 @@ Execute the C Program for the desired output.
 # Register number: 212223230158
 
 # Reader.c
-
+```
 // C Program for Message Queue (Reader Process)
 #include <stdio.h>
 #include <sys/ipc.h>
@@ -53,8 +53,9 @@ printf("Data Received is : %s \n",message.mesg_text);
 msgctl(msgid, IPC_RMID, NULL);
 return 0;
 }
-
+```
 # Writer.c
+```
 // C Program for Message Queue (Writer Process) 
 #include <stdio.h>
 #include <unistd.h>
@@ -82,7 +83,7 @@ msgsnd(msgid, &message, sizeof(message), 0);
 printf("Data send is : %s \n", message.mesg_text);
 return 0;
 }
-
+```
 
 
 ## OUTPUT
